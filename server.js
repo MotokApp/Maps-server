@@ -4,7 +4,7 @@ require('dotenv').config();
 const express = require('express');
 const axios = require('axios'); // Para fazer requisições à API do Google Maps
 const app = express();
-const port = 3000;
+const port = 8000;
 
 app.use(express.json()); // Habilita o parsing de JSON no corpo das requisições
 
