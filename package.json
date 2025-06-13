@@ -1,0 +1,26 @@
+{
+  "name": "maps-server",
+  "version": "1.0.0",
+  "description": "Servidor Node.js para geocodificação de lat/lon.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [
+    "nodejs",
+    "geocoding",
+    "google-maps",
+    "sambu",
+    "whatsapp"
+  ],
+  "author": "Seu Nome ou Nome da Empresa",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.6.8",
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
